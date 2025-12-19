@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NYAKAA Clone</title>
+</head>
+    <style>
+        * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+.header {
+    background-color: #fc2779;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 40px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: none;
+    font-weight: 500;
+}
+.banner {
+    background: linear-gradient(to right, #fc2779, #ff6f9f);
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+.banner button {
+    margin-top: 20px;
+    padding: 10px 25px;
+    background: white;
+    color: #fc2779;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.products {
+    padding: 40px;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 220px;
+}
+
+.card img {
+    width: 100%;
+}
+
+.card button {
+    margin-top: 10px;
+    padding: 8px 15px;
+    background: #fc2779;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    background: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+}
+
+    </style>
+<body>
+    <header class="header">
+        <div class="logo">NYKAA</div>
+        <nav>
+            <a href="#">Categories</a>
+            <a href="#">Brands</a>
+            <a href="#">Offers</a>
+            <a href="#">Account</a>
+            <a href="#">Cart</a>
+        </nav>
+    </header>
+
+    <section class="banner">
+        <h1>Beauty That Inspires</h1>
+        <p>Up to 40% Off on Top Brands</p>
+        <button>Shop Now</button>
+    </section>
+
+    <section class="products">
+        <h2>Popular Products</h2>
+        <div class="product-grid">
+
+            <div class="card">
+                <img src="images.jpeg" alt="Product">
+                <h3>Lipstick</h3>
+                <p>₹599</p>
+                <button>Add to Cart</button> 
+            </div>
+
+            <div class="card">
+                <img src="sunset-makeup-colorful-foundation-pink_1000x.webp" alt="Product">
+                <h3>Foundation</h3>
+                <p>₹899</p>
+                <button>Add to Cart</button>
+            </div>
+
+            <div class="card">
+                <img src="CFC002-1.webp" alt="Product">
+                <h3>eyeshadow</h3>
+                <p>₹1299</p>
+                <button>Add to Cart</button>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2025 Nykaa Clone | Designed for Learning</p>
+    </footer>
+
+</body>
+</html>
