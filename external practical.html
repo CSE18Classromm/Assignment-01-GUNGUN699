@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>E Commerce Cart </title>
+<style>
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+button{
+background-color:blue;
+color:white;
+border:none;
+padding:10px;
+width:100%;
+border-radius:5px;
+cursor:pointer;
+font-size:16px;
+}
+button:hover{
+background-color:blue;
+}
+
+body {
+font-family: Arial, sans-serif;
+background-color:white;
+}
+.navbar {
+display: flex;              
+justify-content: space-between;
+align-items: center;        
+background-color:black;  
+padding: 15px 30px;
+color: white;
+}
+*logo{
+font-size: 1.8rem; 
+font-weight: bold;
+color:orange;   
+cursor: pointer;
+}
+.nav-links {
+display: flex;     
+list-style: none;  
+}
+.nav-links li {
+margin-left: 20px;
+}
+.nav-links a{
+text-decoration: none;
+color: white;
+font-size: 1.1rem;
+transition: color 0.3s ease;
+}
+.nav-links a:hover {
+color:orange;
+}
+@media (max-width: 768px) {
+.navbar {
+flex-direction: column; 
+align-items: flex-start; 
+padding: 15px;
+}
+.nav-links {
+flex-direction: column; 
+width: 100%;            
+margin-top: 15px;
+display: none;          
+display: flex; 
+}
+.nav-links li {
+margin: 10px 0;        
+width: 100%;
+text-align: center;
+border-bottom: 1px solid #3a4a5e;
+padding-bottom: 5px;
+}
+}
+</style>
+</head>
+<body>
+<nav class="navbar">
+<div class="logo">ShopEase</div>
+<ul class="nav-links">
+<li><a href="#">Home</a></li>
+<li><a href="#">product</a></li>
+<li><a href="#">categories</a></li>   
+<li><a href="#">deals</a></li>
+<li><a href="#">contact</a></li>
+</ul>
+</nav>
+<div style="padding:200px; text-aling:center;">
+<h1>Welcome to shopEase</h1>
+<p>Resize your browser window to see the navbar change layout!</p>
+</div>
+</body>
+</html>
